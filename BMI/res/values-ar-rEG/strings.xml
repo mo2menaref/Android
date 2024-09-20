@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="Submit">ترجمة</string>
+    <string name="Result">ادخل الكلمات</string>
+    <string name="Rule"> القاعدة هي حساب الوزن على مربع الطول وستعرف أين يقع جسمك في أي نطاق</string>
+    <string name="Rule1"> يُستخدم مؤشر كتلة الجسم لتصنيف الأفراد إلى فئات مختلفة لحالة الوزن:
+نقص الوزن: مؤشر كتلة الجسم أقل من 18.5
+الوزن الطبيعي: مؤشر كتلة الجسم 18.5 - 24
+الوزن الزائد: مؤشر كتلة الجسم 24 - 30
+السمنة: مؤشر كتلة الجسم ≥ 30</string>
+</resources>
