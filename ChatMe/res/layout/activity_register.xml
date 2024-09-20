@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login.Register"
+    android:padding="30dp"
+    android:background="@drawable/istockphoto"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create New Account"
+        android:textColor="@color/black"
+        android:paddingBottom="60dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   android:padding="30dp"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+        <EditText
+            android:id="@+id/Email"
+            android:background="@drawable/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="E-mail"
+            android:gravity="center"
+            android:drawableLeft="@drawable/baseline_email_24"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+    <EditText
+        android:id="@+id/username"
+        android:background="@drawable/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:padding="10dp"
+        android:hint="Username"
+        android:gravity="center"
+        android:drawableLeft="@drawable/account"
+        />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:gravity="center"
+        android:drawableLeft="@drawable/lock"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/repass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/edittext"
+        android:hint="Confirm password"
+        android:gravity="center"
+        android:drawableLeft="@drawable/lock"
+
+    />
+</LinearLayout>
+</LinearLayout>
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/cornflowerBlue"/>
+</LinearLayout>

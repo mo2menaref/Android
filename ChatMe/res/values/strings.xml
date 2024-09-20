@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chatme</string>
+    <string name="login">Confirm</string>
+    <string name="open"> </string>
+    <string name="close"> </string>
+    <string name="action_settings" />
+</resources>
