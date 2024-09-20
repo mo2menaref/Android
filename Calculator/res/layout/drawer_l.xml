@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/activity_main_l"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/draw_l"
+        android:clickable="true"
+        android:fitsSystemWindows="false"
+        android:orientation="vertical"
+        android:gravity="center|top">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theme"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:paddingBottom="70dp" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/lightb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:layout_weight="2"
+                android:textColor="@color/black"
+                android:text="Dark"
+                />
+
+
+            <RadioButton
+                android:id="@+id/darkb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/black"
+                android:layout_weight="2"
+                android:textColor="@color/black"
+                android:text="Light"
+                android:checked="true"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/Submit_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="@color/black"
+            android:alpha="0.7"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
