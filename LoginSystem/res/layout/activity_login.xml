@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:App2="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/yamada"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/yamada"
+            App2:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome"
+        android:paddingBottom="130dp"
+        android:textSize="70dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     User Name : "
+            android:textStyle="bold"
+           />
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:background="@drawable/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Type your name"
+            android:inputType="text"
+            android:layout_weight="0.4"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:text="Password :  "
+            android:textStyle="bold"
+            />
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:background="@drawable/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Type your password"
+            android:layout_weight="0.6"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yamada"
+        android:text="@string/login"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/yamada"
+        android:layout_gravity="center"
+        android:text="Create New"
+        android:textSize="30dp"
+        />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<style name="erreorStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+    <item name="colorAccent">#FFCC00</item>
+    <item name="android:colorControlNormal">#000</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:textColor">@color/blue</item>
+    <item name="android:statusBarColor">@color/white</item>
+    <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+</style>
+</resources>
